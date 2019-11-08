@@ -288,7 +288,7 @@ class SubmitToDo extends Component {
 
 	handleSubmit(event) {
 		event.preventDefault(); // onSubmit handler default 
-		this.props.addNewTodoItem(this.state.value)
+		this.props.addNewToDoItem(this.state.value)
 	}
 
     render() {
